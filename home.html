@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="CSS/DZ.css">
+    <script defer src="./js/script.js"></script>
+    <title>Сайт группы</title>
+</head>
+<body class="body">
+    <header class="first-header">
+        <img src="img/logo.svg" class="logo" alt="logo">
+        <div class="navigations">
+            <a class="menu-nav" href="#">Главная</a>
+            <a class="menu-nav" href="./pages/students.html">Студенты</a>
+            <a class="menu-nav" href="./pages/about.html">О курсе</a>
+            <a class="menu-nav" href="./pages/contacts.html">Контакты</a>
+        </div>
+        <a class="login-button" href="login.html">Войти</a>
+        <div class="login-popup">
+            <button class="close" type="submit">X</button>
+            <h3 class="login-heading"> Войти на сайт</h3>
+            <form class="login-form">
+                <input class="login-imput" name="login" type="text" placeholder="логин" required>
+                <input class="login-imput" name="password" type="text" placeholder="пароль" required>
+                <button class="popup-button" type="submit">Войти</button>
+            </form>
+        </div>
+    </header>
+    <main class="main">
+        <h1 class="topic">Добро пожаловать на курс “Создание веб-сайтов (HTML, CSS)”!</h1>
+        <img src="img/class.png" class="room-photo" alt="photo">
+        <h2>Для кого этот курс</h2>
+        <p class="education">Этот курс рассчитан на новичков, которые только начинают знакомство с веб-разработкой.
+            В начале курса вы узнаете о том, как устроен Интернет и веб-сайты.
+            Для обучения необходимо только владеть компьютерной грамотностью (пользоваться браузером, создавать папки и
+            файлы, устанавливать программы).</p>
+        <h2>Чему вы научитесь</h2>
+        <p class="education">На этом курсе вы узнаете, как устроены веб-сайты и как создавать их с нуля.
+            Изучите основы языков <strong>HTML</strong> , <strong>CSS</strong> и немного <strong>JavaScript</strong>.
+            Мы вместе сверстаем сайт нашей группы по этому макету. А затем вы <em>сами</em>
+            сверстаете свои личные странички в качестве домашнего задания и мы выложим все это на сервер.</p>
+    </main>
+    <footer class="footer">
+        <p class="copyright">
+            2022 &copy; <a href="https://learn.innopolis.university">учебный центр</a>
+        </p>
+    </footer>
+</body>
+</html>

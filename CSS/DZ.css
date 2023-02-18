@@ -1,0 +1,241 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+.body {    
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    }
+
+/* головная часть кода */
+.first-header {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    width: 100%;
+    min-height: 80px;
+    background-color: rgba(33, 59, 126, 1);
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigations {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: stretch;
+    padding: 0;
+    margin: 0;
+}
+.menu-nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0 18px;
+    background-color: rgba(33, 59, 126, 1);
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration-line: underline;
+}
+.menu-nav:hover {
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(33, 59, 126, 1);
+    text-decoration: none;
+    cursor: pointer;
+    }
+.login-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(234, 93, 33, 1);
+    width: 153px;
+    min-height: 50px;
+    cursor: pointer;
+}
+
+/* popup */
+
+.close{
+    border: none;
+    color: #ffffff;
+    margin-left: 420px;
+    background-color: rgba(234, 93, 33, 1);
+    font-size: medium;
+    font-weight: bold;
+}
+
+.login-popup{
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 500px;
+    min-height: 418px;
+    padding: 26px 28px 50px;
+    background: #ffffff;
+    border: 1px solid #213d7e;
+    background-color: #ffffff;
+    display: none;
+}
+
+.login-heading{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+color: #000000;
+text-align: center;
+}
+
+.login-form{
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+
+.login-form > .login-imput{
+    width: 100%;
+    min-height: 55px;
+    max-width: 444px;
+    margin: 25px;
+    font-size: 20px;
+}
+
+.popup-button{
+    margin: 10px;
+    padding: 10px 35px;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(234, 93, 33, 1);
+    width: 153px;
+    min-height: 50px;
+    cursor: pointer;
+    border-color: rgba(255, 255, 255, 0);
+}
+
+.show-popup{
+    display: block;
+}
+
+/* всё от головы до ног */
+.main {
+    max-width: 917px;
+    width: 100%;
+    margin: 0 auto;
+    flex-grow: 1;
+}
+.topic {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+}
+.room-photo {
+    width: 100%;
+    height: 100%;
+    max-width: 523px;
+    max-height: 316px;
+}
+h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+}
+.education {
+    width: 100%;
+    max-width: 634px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+em {
+    color: rgba(207, 85, 16, 1);
+}
+
+/* students */
+
+.student-name{
+    display: block;
+    text-align: center;
+}
+
+.students{
+    max-width: 1202px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.student{
+    padding-left: 50px;
+}
+
+/* ноги */
+.footer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(33, 59, 126, 1);
+    box-sizing: border-box;
+    max-width: 1300px;
+    width: 100%;
+    min-height: 60px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+.copyright {
+    width: 100%;
+    max-width: 211px;
+    min-height: 23px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.copyright > a {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+@media (max-width: 920px) {
+    .main{
+        padding: 0 10px;
+        width: auto;
+    }
+}
+
+@media (max-width:704px) {
+    .first-header{
+    justify-content: space-around;
+    }
+    .login-button{
+    width: 100px;
+    min-height: 40px;
+    }
+    .logo{
+        width: 35px;
+    }
+}
+
+@media (max-width:657px) {
+    .menu-nav {
+        font-size: 15px;
+    }
+    .login-popup{
+        width: 60%;
+    }
+}
+@media (max-width: 500px) {
+    .first-header{
+        flex-direction: column;
+    }
+}
