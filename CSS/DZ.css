@@ -128,7 +128,7 @@ flex-direction: column;
 }
 
 /* всё от головы до ног */
-.main {
+.content {
     max-width: 917px;
     width: 100%;
     margin: 0 auto;
@@ -207,7 +207,7 @@ em {
 }
 
 @media (max-width: 920px) {
-    .main{
+    .content{
         padding: 0 10px;
         width: auto;
     }
