@@ -1,21 +1,12 @@
 /* content */
 
-.topic {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 30px;
-}
 .room-photo {
     width: 100%;
     height: 100%;
     max-width: 523px;
     max-height: 316px;
 }
-h2 {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 25px;
-}
+
 .education {
     width: 100%;
     max-width: 634px;

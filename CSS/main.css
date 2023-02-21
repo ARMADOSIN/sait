@@ -127,6 +127,18 @@ flex-direction: column;
     flex-grow: 1;
 }
 
+.topic {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+}
+
 /* ноги */
 
 .footer {
@@ -159,6 +171,9 @@ flex-direction: column;
         padding: 0 10px;
         width: auto;
     }
+    .video{
+        height: 430px;
+    }
 }
 
 @media (max-width:704px) {
@@ -172,6 +187,10 @@ flex-direction: column;
     .logo{
         width: 35px;
     }
+    .video{
+        width: 520px;
+        height: 370px;
+    }
 }
 
 @media (max-width:657px) {
@@ -183,6 +202,14 @@ flex-direction: column;
         height: 50%;
     }
 }
+
+@media (max-width: 550px) {
+    .video{
+        width: 380px;
+        height: 350px;
+    }
+}
+
 @media (max-width: 500px) {
     .first-header{
         flex-direction: column;
