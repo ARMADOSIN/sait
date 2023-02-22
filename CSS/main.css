@@ -195,7 +195,7 @@ h2 {
 
 @media (max-width:657px) {
     .menu-nav {
-        font-size: 18px;
+        font-size: 24px;
     }
     .login-popup{
         width: 70%;
@@ -207,11 +207,5 @@ h2 {
     .video{
         width: 380px;
         height: 350px;
-    }
-}
-
-@media (max-width: 500px) {
-    .first-header{
-        flex-direction: column;
     }
 }

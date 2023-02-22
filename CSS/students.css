@@ -21,3 +21,9 @@
 .student{
     padding-left: 50px;
 }
+
+@media(max-width: 1260px) {
+    .students{
+        flex-wrap: wrap;
+    }
+}
