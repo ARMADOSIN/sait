@@ -17,3 +17,19 @@
 em {
     color: rgba(207, 85, 16, 1);
 }
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.learning {
+    font-family: 'Lobster';
+    font-style: normal;
+    font-size: 34px;
+}
+
+.em {
+    color: #646464;
+    font-weight: 600;
+}

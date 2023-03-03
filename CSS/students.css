@@ -8,6 +8,7 @@
 .student-name{
     display: block;
     text-align: center;
+    margin: 15px;
 }
 
 .students{
@@ -20,6 +21,22 @@
 
 .student{
     padding-left: 50px;
+}
+
+.new-stydent {
+    font-size: 18px;
+    font-style: normal;
+    color: #ffffff;
+    background-color: #3AA828;
+    font-weight: 400;
+    padding: 2px 5px 2px;
+    line-height: 21px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    text-decoration: none;
+    position: relative;
+    top: -334px;
+    left: 120px;
 }
 
 @media(max-width: 1260px) {
